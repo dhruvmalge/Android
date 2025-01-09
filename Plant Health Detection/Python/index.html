@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+        h2 {
+            margin-top: 20px;
+            color: #333;
+        }
+        .video-container {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 800px;
+            text-align: center;
+        }
+        .footer {
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            font-size: 14px;
+        }
+        .footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Real-time Plant Disease Detection and Object Detection</h1>
+    
+    <div class="video-container">
+        <h2>Live Video Feed</h2>
+        <img src="{{ url_for('video_feed') }}" width="640" height="480" />
+    </div>
+
+    <div class="footer">
+        <p>Plant Disease Detection System powered by Flask, TensorFlow, and OpenCV</p>
+        <p>For more details, visit <a href="https://github.com/dhruvmalge" target="_blank">GitHub Repository</a></p>
+    </div>
+</body>
+</html>
