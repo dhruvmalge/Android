@@ -1,6 +1,6 @@
-### This is our single page music player app direclty from your custom home based server, where you can play directly from your server to your FLutter Android App.
+This is our single page music player app direclty from your custom home based server, where you can play directly from your server to your FLutter Android App.
 
-## We made this fun project because we are tired of paying subscriptions to various online streaming platforms such as Spotify, Gaana, JioSaavan, AirtelWynk, and so many. 
+We made this fun project because we are tired of paying subscriptions to various online streaming platforms such as Spotify, Gaana, JioSaavan, AirtelWynk, and so many. 
 
 In this project we are guiding you step by step how to play this file.
 
